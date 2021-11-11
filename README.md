@@ -1,5 +1,6 @@
 # MSc Coursework
-Includes overall MSc in Computer Science coursework for 20/21 school year
+Includes overall MSc in Computer Science coursework for 20/21 school year.
+
 ## Programming in C
 This course focused on learning basic coding principles for the C language. All assignments required following an in-house style guide, which can be found [here][progInC styleGuide]. This course featured four main programming projects, and each featured a heavy emphasis on test-driven development.
 
@@ -13,9 +14,13 @@ This course focused on learning basic coding principles for the C language. All 
 
 ## Computer Architecture
 
-[ARM exercise prepartion][arm practice]
+This course focused on computer architecture and featured two main units, and only exams were used for coursework. In the first unit, circuit logic was explored, which involved learning about different logic gates, memory, arithmetic, and finite state machines. To study circuits, the program Logisim was used. Towards the end of this unit, finite state machines were explored.
+
+The second unit of the course involved primarily self-taught for ARM development and assembly language in general. The final exam for this course surrounded understanding of the basics of ARM development, but test preparation for similar types of development can be found in my [ARM exercise prepartion][arm practice] repository.
 
 ## Intro to Computer Science
+
+This course provided an introduction to the different fields of computer science and dissertation writing. Throughout the course, a previous dissertation was used as the focus for all exercises. At the end of the term, each student was required to submit a paper focusing on this dissertation. In the paper, students needed to write an executive summary, provide feedback on strengths and weaknesses, review ethical considerations, and describe potential future work for the disseration.
 
 Add link to final essay
 

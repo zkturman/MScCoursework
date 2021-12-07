@@ -26,7 +26,17 @@ Add link to final essay
 
 ## Intro to Software Tools
 
-Add summary of course
+This course introduced an array of technologies and how they can be used in software development. The course was broken into four main modules. 
+
+In the first module, we focused on POSIX and Git. We learned the basic Git controls and how to create a new Git repository. We also learnd how to use Git in a team environment and how to handle merge conflicts. When working with POSIX, we focused on some advanced C programming concepts, such as pipes and concurrent programming.
+
+During the second module, we focused on relational databases through the use of Maria DB within an Alpine Linux environment. When learning about relational databases, we primarily focused on writing queries, but we also learned about ER diagrams and normal forms. After developing initial query-writing skills, we also looked at tools that combine the use of SQL within Java, such as JDBC and Hibernate.
+
+In the third module for the course, we briefly explored the build tools make for C and Maven for Java. This module was mainly an introduction to these tools and briefly involved using them, but did not go into great depth. The most important thing I remember is that make seems like it can be really challenging to use for installing large programs.
+
+In the final module of the course, we focused on web development skills. The course briefly explored how webpages and the internet work, along with a history of HTML and its relationship with CSS and JavaScript. As part of the module we worked on developing a simple webpage using HTML, CSS, and JavaScript. We then focused on how to implement different RESTful API requests, such as GET and POST. The module concluded with a brief introduction to React and re-implmenting our existing website using this framework.
+
+The coursewebsite with further information can be found [here][softwareToolsSite].
 
 ## Object Oriented Programming
 
@@ -50,6 +60,7 @@ Add link to game prototype and copy of dissertation.
 [progInC polyHashing]: https://github.com/zkturman/1201PolyHashing
 [progInC turtleParsing]: https://github.com/zkturman/1201TurtleParsing
 [arm practice]: https://github.com/zkturman/ARM-Playground
+[softwareToolsSite]: https://cs-uob.github.io/COMSM0085/
 [java oxo]: https://github.com/zkturman/COMSM0086-OXO
 [java db]: https://github.com/zkturman/COMSM0086-DB
 [java stag]: https://github.com/zkturman/COMSM0086-STAG 

@@ -88,7 +88,7 @@ Focuses on creating a polymorphic hash table in C. The C programming language do
 ### [Happy Bookcases][progInC happyBookcases] 
 Involves a breadth-first search algorithm where a given two-demensional array of books must be sorted given certain parameters. The goal was to find the shortest number of moves to sort the bookcase. Because the algorithm is breadth-first, memory and performance management were important aspects. For the extension to this project, I attempted to improve the basic algorithm to choose the best likely solution, which allowed solving more complicated bookcases. My final mark for this assignment was a distinction.
 
-[Add picture or gif]
+[![happyBookcasesDemo](https://img.youtube.com/vi/Tnrxt35YTrw/0.jpg)](https://www.youtube.com/watch?v=Tnrxt35YTrw)
 
 ### [Forest Fires][progInC forestFires] 
 Features a basic simulation for the spreading of fires within a forest. The project involved taking a given two-dimensional array and transforming it based on given rules over a set number of generation. My final mark for this assignment was distinction.
@@ -110,6 +110,7 @@ This course provided an introduction to the different fields of computer science
 [progInC styleGuide]: https://github.com/csnwc/Exercises-In-C/blob/main/exercisesInC.pdf
 [progInC forestFires]: https://github.com/zkturman/1201ForestFire
 [progInC happyBookcases]: https://github.com/zkturman/1201HappyBookcases
+
 [progInC polyHashing]: https://github.com/zkturman/1201PolyHashing
 [progInC turtleParsing]: https://github.com/zkturman/1201TurtleParsing
 [arm practice]: https://github.com/zkturman/ARM-Playground

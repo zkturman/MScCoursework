@@ -2,7 +2,7 @@
 Includes overall MSc in Computer Science coursework for 20/21 school year. Most recent projects/courses are listed first. I received a distinction for each course below.
 
 ## MSc Dissertation
-### [UnderGrove Prototype (Playable)][dissertation undergrove]
+### [UnderGrove Prototype (Playable)][dissertation undergrove] - [Link to Dissertation][dissertation paper]
   - Top-down adventure game
   - Developed using **Unity and C#**
   - Features custom procedure generation algorithm
@@ -146,7 +146,7 @@ This course focused on learning basic coding principles for the C language. All 
   - Learned skills for writing executive summaries
   - Reviewed software ethics and applied principals to existing projects
 
-[Add link to final essay]
+### [Link to Final Paper](Turman_bm20715_Final_Paper.pdf)
 
 [progInC styleGuide]: https://github.com/csnwc/Exercises-In-C/blob/main/exercisesInC.pdf
 [progInC forestFires]: https://github.com/zkturman/1201ForestFire
@@ -161,3 +161,5 @@ This course focused on learning basic coding principles for the C language. All 
 [java stag]: https://github.com/zkturman/COMSM0086-STAG 
 [segp sugarRush]: https://github.com/zkturman/SugarRush
 [dissertation undergrove]: https://github.com/zkturman/UnderGrove
+[dissertation paper]: Under_Grove__MSc_Dissertation.pdf
+[intro paper]: Turman_bm20715_Final_Paper.pdf

@@ -80,7 +80,13 @@ This course focused on learning basic coding principles for the C language. All 
 ### [Turtle Parsing][progInC turtleParsing] 
 Parses and interprets a turtle-specific language. When the language is interpreted, a graphic display is created. This project used a recursive descent parser to make sure a given .ttl file contains correct syntax. When interpreting the file, SDL is used to render graphics. As an extension to the base program, I implemented the addition of colour interpretation, turtle 'jumping' (where a non-continuous line can be drawn), and random options for numbers and colours.
 
-[Add produced images and gif]
+#### Generated Images
+[![cityscapeImage](https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/cityscape.png)](https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/cityscape.png)
+[![meanderImage](https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/meander.png)](https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/meander.png)
+[![umbrellaImage](https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/umbrella.png)](https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/umbrella.png)
+[![fracturesImage](https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/fractures.png)](https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/fractures.png)
+[![fadingCircleImage](https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/fadecirc.png)](https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/fadecirc.png)
+
 
 ### [Poly Hashing][progInC polyHashing] 
 Focuses on creating a polymorphic hash table in C. The C programming language does not actually allow polymorphism, but this project explored a method in which you could attain a kind of polymorphic behaviour in C. The project involved two different methods for hashing. In the first, two hashing algorithms were used to add new elements to a table. A custom hashing algorithm was used for this base method. The second part of the project involved cuckoo hashing, which implements a second hash table to handle collisions when entries have the same key value.

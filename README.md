@@ -4,6 +4,7 @@ Includes overall MSc in Computer Science coursework for 20/21 school year. Most 
 ## MSc Dissertation
 ### [UnderGrove Prototype (Playable)][dissertation undergrove]
   - Top-down adventure game
+  - Developed using Unity and C#
   - Features custom procedure generation algorithm
     - Creates a two-dimensional dungeon
     - Dungeon rooms fit together logically, i.e. no rooms overlap geometrically
@@ -19,8 +20,15 @@ Includes overall MSc in Computer Science coursework for 20/21 school year. Most 
 ## Software Engineering Group Project
 
 ### [SugarRush Group Project][segp sugarRush] - An Educational Game About Sugar
+  - Quiz-based game to educate users on sugar consumption
+  - Developed using the MEAN stack (MongoDB, Express, Angular, and Node)
+  - Acted as project manager in an Agile environment
+  - Creating and managed weekly sprints to help deliver MVP by end of term
+  - Created services to maintain data between pages
+  - Created end of game summary to review all player answers
+  - Helped connect database to website
 
-## Object Oriented Programming
+## Object Oriented Programming (Java)
 
 The object-oriented programming course focused on implementing object-oriented concepts in Java. This course focused primarily on developing medium-sized projects and self-learning OOP principles. Over the period of the course, I completed three main projects.
 

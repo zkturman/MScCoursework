@@ -1,10 +1,10 @@
 # MSc Coursework
-Includes overall MSc in Computer Science coursework for 20/21 school year. Most recent projects/courses are listed first.
+Includes overall MSc in Computer Science coursework for 20/21 school year. Most recent projects/courses are listed first. I received a distinction for each course below.
 
 ## MSc Dissertation
 ### [UnderGrove Prototype (Playable)][dissertation undergrove]
   - Top-down adventure game
-  - Developed using Unity and C#
+  - Developed using **Unity and C#**
   - Features custom procedure generation algorithm
     - Creates a two-dimensional dungeon
     - Dungeon rooms fit together logically, i.e. no rooms overlap geometrically
@@ -21,7 +21,7 @@ Includes overall MSc in Computer Science coursework for 20/21 school year. Most 
 
 ### [SugarRush Group Project][segp sugarRush] - An Educational Game About Sugar
   - Quiz-based game to educate users on sugar consumption
-  - Developed using the MEAN stack (MongoDB, Express, Angular, and Node)
+  - Developed using the MEAN stack (MongoDB, Express, Angular, and Node), so plenty of **HTML, JavaScript, and CSS**
   - Acted as project manager in an Agile environment
   - Creating and managed weekly sprints to help deliver MVP by end of term
   - Created services to maintain data between pages
@@ -30,7 +30,7 @@ Includes overall MSc in Computer Science coursework for 20/21 school year. Most 
 
 ## Object Oriented Programming (Java)
 
-The object-oriented programming course focused on implementing object-oriented concepts in Java. This course focused primarily on developing medium-sized projects and self-learning OOP principles. Over the period of the course, I completed three main projects.
+The object-oriented programming course focused on implementing object-oriented concepts in **Java**. This course focused primarily on developing medium-sized projects and self-learning OOP principles. Over the period of the course, I completed three main projects.
 
 ### [Text-based Adventure Game Engine][java stag] - A Text Based Game Engine
   - Created a text-based game engine
@@ -60,25 +60,39 @@ The object-oriented programming course focused on implementing object-oriented c
 
 This course introduced an array of technologies and how they can be used in software development. The course was broken into four main modules. 
 
-#### POSIX and Git
-In the first module, we focused on POSIX and Git. We learned the basic Git controls and how to create a new Git repository. We also learnd how to use Git in a team environment and how to handle merge conflicts. When working with POSIX, we focused on some advanced C programming concepts, such as pipes and concurrent programming.
+#### Git
+  - **Git** commands
+  - Creating and managing shared repositories
+  - Handling merge conflicts. 
+#### POSIX
+  - Pipes in **C**
+  - Concurrent programming in **C**
 
 #### Relational Databases (SQL and SQL tools)
-During the second module, we focused on relational databases through the use of Maria DB within an Alpine Linux environment. When learning about relational databases, we primarily focused on writing queries, but we also learned about ER diagrams and normal forms. After developing initial query-writing skills, we also looked at tools that combine the use of SQL within Java, such as JDBC and Hibernate.
+  - Use of **Maria DB** in **Alpine Linux** environment
+  - Writing SQL queries
+  - Creating and reviewing ER diagrams
+  - Analysing databases for **normal forms**
+  - Reviewing tools that access **SQL** databases through **Java**, such as **JDBC** and **Hibernate**.
 
-#### Build Tools (Make and Maven)
-In the third module for the course, we briefly explored the build tools make for C and Maven for Java. This module was mainly an introduction to these tools and briefly involved using them, but did not go into great depth. The most important thing I remember is that make seems like it can be really challenging to use for installing large programs.
+#### Build Tools
+  - Reviewed **Make** for **C**
+  - Reviewed **Maven** for **Java**
 
 #### Web Technology
-In the final module of the course, we focused on web development skills. The course briefly explored how webpages and the internet work, along with a history of HTML and its relationship with CSS and JavaScript. As part of the module we worked on developing a simple webpage using HTML, CSS, and JavaScript. We then focused on how to implement different RESTful API requests, such as GET and POST. The module concluded with a brief introduction to React and re-implmenting our existing website using this framework.
+  - Develop simple webpages using **HTML**, **CSS**, and **JavaScript**. 
+  - Implement RESTful API requests, such as GET and POST
+  - Introduced to **React**
 
 The course website with further information can be found [here][softwareToolsSite].
 
 ## Programming in C
 This course focused on learning basic coding principles for the C language. All assignments required following an in-house style guide, which can be found [here][progInC styleGuide]. This course featured four main programming projects, and each featured a heavy emphasis on test-driven development.
 
-### [Turtle Parsing][progInC turtleParsing] 
-Parses and interprets a turtle-specific language. When the language is interpreted, a graphic display is created. This project used a recursive descent parser to make sure a given .ttl file contains correct syntax. When interpreting the file, SDL is used to render graphics. As an extension to the base program, I implemented the addition of colour interpretation, turtle 'jumping' (where a non-continuous line can be drawn), and random options for numbers and colours.
+### [Turtle Parsing][progInC turtleParsing]
+  - Parses and interprets a turtle-specific language in **C**
+  - Utilises a recursive-descent parser
+  - Language is interpreted to create graphic displays (see images below) using SDL to render graphics
 
 #### Generated Images
 <img src="https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/cityscape.png" width="400px">
@@ -87,28 +101,50 @@ Parses and interprets a turtle-specific language. When the language is interpret
 <img src="https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/fractures.png" width="400px">
 <img src="https://github.com/zkturman/1201TurtleParsing/blob/main/GFX/fadecirc.png" width="400px">
 
-### [Poly Hashing][progInC polyHashing] 
-Focuses on creating a polymorphic hash table in C. The C programming language does not actually allow polymorphism, but this project explored a method in which you could attain a kind of polymorphic behaviour in C. The project involved two different methods for hashing. In the first, two hashing algorithms were used to add new elements to a table. A custom hashing algorithm was used for this base method. The second part of the project involved cuckoo hashing, which implements a second hash table to handle collisions when entries have the same key value.
+### [Poly Hashing][progInC polyHashing]
+  - Creates polymorphic hash table in **C**
+  - Explored different hashing algorithms for hashing new elements
+  - Explored cuckoo hashing scheme to handle collisions when multiple elements have the same hashing value 
 
-### [Happy Bookcases][progInC happyBookcases] 
-Involves a breadth-first search algorithm where a given two-demensional array of books must be sorted given certain parameters. The goal was to find the shortest number of moves to sort the bookcase. Because the algorithm is breadth-first, memory and performance management were important aspects. For the extension to this project, I attempted to improve the basic algorithm to choose the best likely solution, which allowed solving more complicated bookcases. My final mark for this assignment was a distinction.
+### [Happy Bookcases][progInC happyBookcases]
+  - Finds a shortest solution for sorting an unsorted bookcase in **C**
+  - Focuses on using a breadth-first search algorithm
+  - Central focus on memory and performance
+  - Required improving initial algorithms to get subsequent solutions
 
 [![happyBookcasesDemo](https://img.youtube.com/vi/Tnrxt35YTrw/0.jpg)](https://www.youtube.com/watch?v=Tnrxt35YTrw)
 
 ### [Forest Fires][progInC forestFires] 
-Features a basic simulation for the spreading of fires within a forest. The project involved taking a given two-dimensional array and transforming it based on given rules over a set number of generation. My final mark for this assignment was distinction.
+  - Simulate forest fires in **C**
+  - Required navigating and mutating a two-dimensional array
+  - Similar to John Conway's Game of Life
 
 [![forestFireDemo](https://img.youtube.com/vi/wL8mZYYNrNg/0.jpg)](https://www.youtube.com/watch?v=wL8mZYYNrNg)
 
 ## Computer Architecture
 
-This course focused on computer architecture and featured two main units, and only exams were used for coursework. In the first unit, circuit logic was explored, which involved learning about different logic gates, memory, arithmetic, and finite state machines. To study circuits, the program Logisim was used. Towards the end of this unit, finite state machines were explored.
+#### Circuit Logic 
+  - Learned about different logic gates
+  - Studied NAND-gate-based models for memory, arithmetic, and finite state machines
+  - Utilised the Logisim program for circuit simulations
+  - Created and examined finite state machine logic
+  - Focused on Boolean algebra and logic expressions
 
-The second unit of the course involved primarily self-taught for ARM development and assembly language in general. The final exam for this course surrounded understanding of the basics of ARM development, but test preparation for similar types of development can be found in my [ARM exercise prepartion][arm practice] repository.
+#### ARM Assembly
+  - Required self-teaching **ARM assembly language**
+    - Learned basic syntax of language
+    - Programs can be found [in my ARM exercise][arm practice] repository
+  - Required writing programs in **ARM**
+  - Required learning about different physical components of computers
 
 ## Intro to Computer Science
 
-This course provided an introduction to the different fields of computer science and dissertation writing. Throughout the course, a previous dissertation was used as the focus for all exercises. At the end of the term, each student was required to submit a paper focusing on this dissertation. In the paper, students needed to write an executive summary, provide feedback on strengths and weaknesses, review ethical considerations, and describe potential future work for the disseration.
+  - General introduction to the different fields of computer science
+  - Learned techniques for dissertation writing
+  - Reviewed and critiqued previous dissertations
+  - Presented information regarding dissertation to fellow classmates
+  - Learned skills for writing executive summaries
+  - Reviewed software ethics and applied principals to existing projects
 
 [Add link to final essay]
 

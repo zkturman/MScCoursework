@@ -93,7 +93,7 @@ Involves a breadth-first search algorithm where a given two-demensional array of
 ### [Forest Fires][progInC forestFires] 
 Features a basic simulation for the spreading of fires within a forest. The project involved taking a given two-dimensional array and transforming it based on given rules over a set number of generation. My final mark for this assignment was distinction.
 
-[Add picture or gif]
+[![forestFireDemo](https://img.youtube.com/vi/1O9cLKK-xTY/0.jpg)](https://www.youtube.com/watch?v=1O9cLKK-xTY)
 
 ## Computer Architecture
 
